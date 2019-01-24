@@ -14,7 +14,21 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: './list/list.module#ListPageModule'
+  },
+  { path: 'nuevo-banner',
+    loadChildren: './nuevo-banner/nuevo-banner.module#NuevoBannerPageModule' 
+  },
+  { path: 'mis-disenios',
+    loadChildren: './mis-disenios/mis-disenios.module#MisDiseniosPageModule' 
+  },
+  { path: 'mis-productos',
+    loadChildren: './mis-productos/mis-productos.module#MisProductosPageModule' 
+  },
+  { path: 'mis-plantillas', 
+    loadChildren: './mis-plantillas/mis-plantillas.module#MisPlantillasPageModule' 
   }
+
+
 ];
 
 @NgModule({
