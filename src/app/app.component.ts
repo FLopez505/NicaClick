@@ -16,7 +16,7 @@ export class AppComponent {
       icon: 'home'
     },
     {
-      //Cambiar Rutas
+
       title: 'Mi Cuenta',
       url: '/mi-cuenta',
       icon: 'contact'
