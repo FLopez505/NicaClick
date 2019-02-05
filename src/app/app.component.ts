@@ -16,24 +16,45 @@ export class AppComponent {
       icon: 'home'
     },
     {
-      title: 'Nuevo banner',
-      url: '/nuevo-banner',
-      icon: 'document'
+      //Cambiar Rutas
+      title: 'Mi Cuenta',
+      url: '/mi-cuenta',
+      icon: 'contact'
+    },
+    {
+      title: 'Plantillas',
+      url: '/mis-plantillas',
+      icon: 'images'
     },
     {
       title: 'Mis diseños',
       url: '/mis-disenios',
-      icon: 'folder'
+      icon: 'image'
     },
     {
-      title: 'Mis productos',
-      url: '/mis-productos',
-      icon: 'filing'
+      title: 'Califícanos',
+      url: '/calificanos',
+      icon: 'star'
     },
     {
-      title: 'Mis plantillas',
-      url: '/mis-plantillas',
-      icon: 'brush'
+      title: 'Feedback',
+      url: '/realimentacion',
+      icon: 'trophy'
+    },
+    {
+      title: 'A cerca de Nosotros',
+      url: '/acerca-de-nosotros',
+      icon: 'information-circle-outline'
+    },
+    {
+      title: 'Compartir',
+      url: '/compartir',
+      icon: 'share'
+    },
+    {
+      title: 'Políticas',
+      url: '/politicas',
+      icon: 'key'
     }
   ];
 

@@ -1,5 +1,7 @@
 {
   "name": "NicaClick",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
