@@ -19,11 +19,14 @@
         <p>Aproveche el fabricante de banners más eficiente. Cree sus banners y compártalos en las redes sociales para promocionar su negocio.</p>
       </ion-card-content>
     </ion-card>
-    <ion-row>
-      <ion-col size="1" push="9">
-        <ion-fab-button color="danger"><ion-icon name="add"></ion-icon></ion-fab-button> 
-      </ion-col>
-    </ion-row>
+
+    <ion-button (click)="presentToast()">Presentar Tostada</ion-button>
+
+    <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+        <ion-fab-button  color="danger">
+          <ion-icon name="add"></ion-icon>
+        </ion-fab-button>
+      </ion-fab>
     
 </ion-content>
 
