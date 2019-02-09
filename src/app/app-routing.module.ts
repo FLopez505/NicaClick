@@ -38,7 +38,8 @@ const routes: Routes = [
   },
   { path: 'politicas',
    loadChildren: './politicas/politicas.module#PoliticasPageModule' 
-  }
+  },  { path: 'crear-banner', loadChildren: './crear-banner/crear-banner.module#CrearBannerPageModule' }
+
 
 
 
