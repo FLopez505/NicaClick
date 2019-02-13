@@ -12,9 +12,6 @@ export class MisPlantillasPage implements OnInit {
     go(){
       this.router.navigate(['/crear-banner']);
     }
-  
-
-  ngOnInit() {
-  }
-
+    ngOnInit(){}
+    
 }
