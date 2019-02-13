@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-mis-plantillas',
   templateUrl: './mis-plantillas.page.html',
@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MisPlantillasPage implements OnInit {
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  
+    constructor(private router:Router){}
+    go(){
+      this.router.navigate(['/crear-banner']);
+    }
+    ngOnInit(){}
+    
 }
