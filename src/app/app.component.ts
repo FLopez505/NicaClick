@@ -42,7 +42,7 @@ export class AppComponent {
       icon: 'trophy'
     },
     {
-      title: 'A cerca de Nosotros',
+      title: 'Acerca de Nosotros',
       url: '/acerca-de-nosotros',
       icon: 'information-circle-outline'
     },
