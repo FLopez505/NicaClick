@@ -3,35 +3,34 @@
   overflow: hidden;
 }
 
-@keyframes fadeIn {
+-webkit-keyframes zoomIn {
   from {
     opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
   }
-
+  
   to {
     opacity: 1;
   }
 }
 
-.fadeIn {
-  animation-name: fadeIn;
-  animation-duration: 10s;
-}
-
-p{
-  animation-duration: 4s;
-  animation-name: slidein;
-}
-
-@keyframes slidein {
+  
+  @keyframes zoomIn {
   from {
-    margin-left: 100%;
-    width: 300%
+    opacity: 1;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
   }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  } 
-}
+  
+  50% {
+    opacity: 1;
+  }
+  }
+  
+  .zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+  animation-duration: 2s;
+  }
 

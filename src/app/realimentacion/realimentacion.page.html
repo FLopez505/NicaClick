@@ -7,6 +7,78 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content>
+  <ion-card padding>
+    <ion-card-title>
+      <h5 text-center>
+          Formulario FeedBack de Cliente
+      </h5>
+    </ion-card-title>
+    <p text-justify>
+      Por favor tómese unos minutos para darnos una devolución sobre nuestro servicio, completando este breve Formulario de Feedback de Cliente. Estamos llevando adelante este análisis de feedback de clientes para medir su nivel de satisfacción con la calidad de nuestra app.
+    </p>
+    <p text-justify>
+      Le agradecemos por su participación en nuestro Formulario de Feedback de Cliente y por usar nuestra app, y esperamos poder mejorar constantemente las prestaciones que brindamos.
+    </p>
+
+    <h5 text-center>
+        Experiencia con nuestra App
+    </h5>
+    <br>
+    <ion-list> 
+
+      <h5>¿Cómo puntuaría su experiencia, en general, con nuestra app?</h5>
+      <ion-item>
+        <ion-label>Experiencia</ion-label>
+        <ion-select [interfaceOptions]="customActionSheetOptions" interface="action-sheet" placeholder="Select One">
+          <ion-select-option value="Muy Buena">Muy Buena</ion-select-option>
+          <ion-select-option value="Buena">Buena</ion-select-option>
+          <ion-select-option value="Normal">Normal</ion-select-option>
+          <ion-select-option value="Mala">Mala</ion-select-option>
+          <ion-select-option value="Muy Mala">Muy Mala</ion-select-option>
+        </ion-select>
+      </ion-item>
+
+      <h5>¿Cuán satisfecho está con la variedad de nuestras plantillas?</h5>
+      <ion-item>
+        <ion-label>Satisfacción</ion-label>
+        <ion-select [interfaceOptions]="customActionSheetOptions" interface="action-sheet" placeholder="Select One">
+          <ion-select-option value="Muy Satisfecho">Muy Satisfecho</ion-select-option>
+          <ion-select-option value="Satisfecho">Satisfecho</ion-select-option>
+          <ion-select-option value="Neutral">Neutral</ion-select-option>
+          <ion-select-option value="Insatisfecho">Insatisfecho</ion-select-option>
+          <ion-select-option value="green">Muy Insatisfecho</ion-select-option>
+        </ion-select>
+      </ion-item>
+
+      <h5>¿Recomendaría nuestro producto o servicio a otra gente?</h5>
+      <ion-item>
+        <ion-label>Recomendacion</ion-label>
+        <ion-select [interfaceOptions]="customActionSheetOptions" interface="action-sheet" placeholder="Select One">
+          <ion-select-option value="Definitivamente">Definitivamente</ion-select-option>
+          <ion-select-option value="Probablemente">Probablemente</ion-select-option>
+          <ion-select-option value="No estoy seguro">No estoy seguro</ion-select-option>
+          <ion-select-option value="Probablemente no">Probablemente no</ion-select-option>
+          <ion-select-option value="Definitivamente no">Definitivamente no</ion-select-option>
+        </ion-select>
+      </ion-item>
+
+      <h5>¿Qué deberíamos cambiar para colmar sus expectativas?</h5>
+      <ion-item>
+        <ion-textarea placeholder="Comentenos aquí..."></ion-textarea>
+      </ion-item>
+
+    </ion-list>
+        
+    <ion-row>
+      <ion-col>
+        <ion-button color="success">
+        <ion-icon name="send" slot="start"></ion-icon>
+          Enviar
+        </ion-button>
+      </ion-col>
+    </ion-row>
+
+  </ion-card>
 
 </ion-content>
