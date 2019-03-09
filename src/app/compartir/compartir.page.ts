@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-compartir',
@@ -7,8 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CompartirPage implements OnInit {
 
-  constructor() { }
-
+  constructor(private router: Router) { }
+  back(){
+    this.router.navigate(['/home']);
+  }
   ngOnInit() {
   }
 
