@@ -1,10 +1,7 @@
-<<<<<<< HEAD
 import { Component, OnInit, ElementRef, ViewChild} from '@angular/core';
 import { NavController } from '@ionic/angular';
-=======
-import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
->>>>>>> ad59efa63909c19cf8d01030bf18d9a1887c394d
+
 
 @Component({
   selector: 'app-compartir',
@@ -13,21 +10,15 @@ import { Router } from '@angular/router';
 })
 export class CompartirPage {
 
-<<<<<<< HEAD
 
   @ViewChild('canvas') canvasEl : ElementRef;
   private _CANVAS  : any;
   private _CONTEXT : any;
   private _IMG : any;
 
-  constructor(public navCtrl: NavController)
-  {
-
-=======
-  constructor(private router: Router) { }
+  constructor(private router: Router,public navCtrl: NavController) { }
   back(){
     this.router.navigate(['/home']);
->>>>>>> ad59efa63909c19cf8d01030bf18d9a1887c394d
   }
   ngOnInit() {
     this._CANVAS 	      = this.canvasEl.nativeElement;
