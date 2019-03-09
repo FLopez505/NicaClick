@@ -15,7 +15,7 @@
 
 <ion-content padding>
   <ion-card id="canva_d">
-      <img src="/assets/plantillaeliab.jpg" alt="">
+    <canvas #canvas></canvas>
   </ion-card>
   <ion-card>
     <ion-card-title text-center>
@@ -39,7 +39,7 @@
 
   <ion-row>
     <ion-col>
-      <ion-button color="success">
+      <ion-button color="success" (click)="drawCircle()">
       <ion-icon name="brush" slot="start"></ion-icon>
         Aplicar
       </ion-button>

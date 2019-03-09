@@ -8,5 +8,11 @@
 </ion-header>
 
 <ion-content padding>
-
+  <div class="ion-canvas">
+    <canvas #canvas></canvas>
+  </div>
+  <ion-button color="success" (click)="drawCircle()">
+    <ion-icon name="brush" slot="start"></ion-icon>
+      Circulo
+  </ion-button>
 </ion-content>
