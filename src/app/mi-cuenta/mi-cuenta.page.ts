@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import{Router} from '@angular/router';
 
 @Component({
   selector: 'app-mi-cuenta',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MiCuentaPage implements OnInit {
 
-  constructor() { }
+  constructor(private router:Router) { }
+
+  back(){
+    this.router.navigate(['/home']);
+  }
 
   ngOnInit() {
   }
