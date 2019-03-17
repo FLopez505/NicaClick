@@ -9,7 +9,7 @@
 
 <ion-content>
   <ion-row>
-    <ion-col size="6" *ngFor="let plantilla of Plantilla"S>
+    <ion-col size="6" *ngFor="let plantilla of Plantillas"S>
       <ion-card class="slideInLeft">
               <img [src]="plantilla.imgSrc" alt="">
               <ion-card-content>
@@ -21,7 +21,7 @@
                     {{ plantilla.dimensiones }}
                   </h6>
                 </ion-card-title>
-                <ion-button (click)='go()' color="success" expand="block" size="small">
+                <ion-button [routerLink]="['/mis-plantillas',plantilla.id]" color="success" expand="block" size="small">
                     Usar
                 </ion-button>
               </ion-card-content>

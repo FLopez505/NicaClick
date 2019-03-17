@@ -19,7 +19,16 @@ const routes: Routes = [
     loadChildren: './mis-disenios/mis-disenios.module#MisDiseniosPageModule' 
   },
   { path: 'mis-plantillas', 
-    loadChildren: './mis-plantillas/mis-plantillas.module#MisPlantillasPageModule' 
+    children: [
+      {
+        path: '',
+        loadChildren: './mis-plantillas/mis-plantillas.module#MisPlantillasPageModule' 
+      },
+      {
+        path:':plantillaId',
+        loadChildren: './crear-banner/crear-banner.module#CrearBannerPageModule'
+      }
+    ]
   },
   { path: 'mi-cuenta',
    loadChildren: './mi-cuenta/mi-cuenta.module#MiCuentaPageModule' 
@@ -38,9 +47,6 @@ const routes: Routes = [
   },
   { path: 'politicas',
    loadChildren: './politicas/politicas.module#PoliticasPageModule' 
-  },
-  { path: 'crear-banner',
-   loadChildren: './crear-banner/crear-banner.module#CrearBannerPageModule'
   }
 
 

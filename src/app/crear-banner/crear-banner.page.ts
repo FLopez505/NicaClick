@@ -1,6 +1,8 @@
 import { Component, OnInit, ElementRef, ViewChild} from '@angular/core';
 import { NavController } from '@ionic/angular';
-import { Router } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
+import { MisplantillasService } from '../mis-plantillas/misplantillas.service';
+import { plantilla } from '../mis-plantillas/modelo.plantilla';
 
 @Component({
   selector: 'app-crear-banner',
@@ -15,17 +17,29 @@ export class CrearBannerPage implements OnInit {
   private _CONTEXT : any;
   private _IMG : any;
 
-  constructor(private router: Router,public navCtrl: NavController) { }
+  plantillaCargada: plantilla;
+
+  constructor(private router: Router,public navCtrl: NavController,private activatedrout: ActivatedRoute,private misplantillasservice: MisplantillasService) { }
   back(){
     this.router.navigate(['/mis-plantillas']);
   }
   ngOnInit() {
+
+    this.activatedrout.paramMap.subscribe(paramMap => {
+      if(!paramMap.get('plantillaId')){
+        return;
+      }
+      const plantillaId = paramMap.get('plantillaId');
+      this.plantillaCargada = this.misplantillasservice.obtenerunicaPlantilla(plantillaId);
+    });
     this._CANVAS 	      = this.canvasEl.nativeElement;
     this._CANVAS.width  	= 200;
     this._CANVAS.height 	= 200;
     this._IMG = new Image();
-    this._IMG.src = 'https://pbs.twimg.com/profile_images/614117729918914560/3VZw4vhK_400x400.jpg';
+    this._IMG.src = this.plantillaCargada.imgSrc; //'https://pbs.twimg.com/profile_images/614117729918914560/3VZw4vhK_400x400.jpg';
     this.initialiseCanvas();
+    console.log(this.plantillaCargada.imgSrc);
+    console.log(this._IMG.src);
   }
 
   initialiseCanvas():void{
