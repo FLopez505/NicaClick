@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { plantilla } from './modelo.plantilla';
-import { MisplantillasService } from './misplantillas.service';
+import { NavController } from '@ionic/angular';
 @Component({
   selector: 'app-mis-plantillas',
   templateUrl: './mis-plantillas.page.html',
@@ -9,16 +8,13 @@ import { MisplantillasService } from './misplantillas.service';
 })
 export class MisPlantillasPage implements OnInit {
 
-    Plantillas: plantilla[];
-    constructor(private router:Router,private misplantillasservice:MisplantillasService){}
+    constructor(private router:Router, public  navCtrl: NavController){}
     go(){
       this.router.navigate(['/crear-banner']);
     }
     back(){
       this.router.navigate(['/home']);
     }
-    ngOnInit(){
-      this.Plantillas = this.misplantillasservice.obtenertodasPlantillas();
-    }
+    ngOnInit(){}
     
 }
