@@ -10,7 +10,7 @@ export class MisplantillasService {
       id: 'id1',
       nombrePortada: 'Portada para Facebook',
       dimensiones: '851x315',
-      imgSrc: './../../assets/plantillaeliab.jpg'
+      imgSrc: './../../assets/plantilla1-min.jpg'
     },
     {
       id: 'id2',

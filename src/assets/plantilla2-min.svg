@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="76.1998mm" height="29.6332mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 7620 2963"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#E6E7E8;stroke-width:20}
+    .str2 {stroke:#87CCA4;stroke-width:20}
+    .str1 {stroke:#39B77B;stroke-width:20}
+    .fil1 {fill:none}
+    .fil0 {fill:#E6E7E8}
+    .fil3 {fill:#87CCA4}
+    .fil2 {fill:#39B77B}
+   ]]>
+  </style>
+     <clipPath id="id0">
+      <path d="M85 -25l3219 0 0 3067 -3219 0 0 -3067z"/>
+     </clipPath>
+    <clipPath id="id1">
+     <path d="M179 2830l0 -2667 1616 0 1203 2667 -2819 0z"/>
+    </clipPath>
+     <clipPath id="id2">
+      <path d="M179 2830l0 -2667 1616 0 1203 2667 -2819 0z"/>
+     </clipPath>
+     <clipPath id="id3">
+      <path d="M179 2830l0 -2667 1616 0 1203 2667 -2819 0z"/>
+     </clipPath>
+     <clipPath id="id4">
+      <path d="M2383 387l4756 0 0 413 -4756 0 0 -413z"/>
+     </clipPath>
+     <clipPath id="id5">
+      <path d="M5679 2321l1458 0 0 413 -1458 0 0 -413z"/>
+     </clipPath>
+ </defs>
+ <g id="Capa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2449383660992">
+   <rect class="fil0 str0" x="179" y="163" width="7205" height="2667"/>
+   <g>
+    <g style="clip-path:url(#id0)">
+     <image x="85" y="-25" width="3219" height="3067" xlink:href="banner4_Images\banner4_ImgID1.png"/>
+    </g>
+   </g>
+   <g>
+   </g>
+   <g style="clip-path:url(#id1)">
+    <g id="_2449383666464">
+    </g>
+    <g style="clip-path:url(#id2)">
+     <image x="-603" y="84" width="3816" height="2862" xlink:href="banner4_Images\banner4_ImgID2.png"/>
+    </g>
+    <g style="clip-path:url(#id3)">
+    </g>
+   </g>
+   <polygon class="fil1" points="179,2830 179,163 1795,163 2998,2830 "/>
+   <g id="_2449383663104">
+    <g style="clip-path:url(#id4)">
+     <image x="2383" y="387" width="4756" height="412" xlink:href="banner4_Images\banner4_ImgID3.png"/>
+    </g>
+   </g>
+   <rect class="fil2 str1" x="2418" y="370" width="4682" height="339"/>
+   <g id="_2449383662560">
+    <g style="clip-path:url(#id5)">
+     <image x="5679" y="2321" width="1458" height="412" xlink:href="banner4_Images\banner4_ImgID4.png"/>
+    </g>
+   </g>
+   <rect class="fil3 str2" x="5695" y="2311" width="1384" height="339"/>
+  </g>
+ </g>
+</svg>
