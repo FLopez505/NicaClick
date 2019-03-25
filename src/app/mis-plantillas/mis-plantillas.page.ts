@@ -20,7 +20,8 @@ export class MisPlantillasPage implements OnInit {
       this.router.navigate(['/home']);
     }
     ngOnInit(){
-      this.Plantillas = this.platillaservice.obtenertodasPlantillas();6
+      this.Plantillas = this.platillaservice.obtenertodasPlantillas();
+      console.log(this.Plantillas);
     }
     
 }

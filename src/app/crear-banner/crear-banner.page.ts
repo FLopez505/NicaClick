@@ -31,6 +31,7 @@ export class CrearBannerPage implements OnInit {
       }
       const plantillaId = paramMap.get('plantillaId');
       this.plantillaCargada = this.misplantillasservice.obtenerunicaPlantilla(plantillaId);
+      console.log(this.plantillaCargada);
     });
     this._CANVAS 	      = this.canvasEl.nativeElement;
     this._CANVAS.width  	= 200;
@@ -38,8 +39,6 @@ export class CrearBannerPage implements OnInit {
     this._IMG = new Image();
     this._IMG.src = this.plantillaCargada.imgSrc; //'https://pbs.twimg.com/profile_images/614117729918914560/3VZw4vhK_400x400.jpg';
     this.initialiseCanvas();
-    console.log(this.plantillaCargada.imgSrc);
-    console.log(this._IMG.src);
   }
 
   initialiseCanvas():void{

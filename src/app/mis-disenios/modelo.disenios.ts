@@ -3,4 +3,4 @@ export interface disenios{
     nombrePortada: string;
     dimensiones: string;
     imgSrc: string;
-}
+} 
