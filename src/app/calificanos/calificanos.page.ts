@@ -8,7 +8,8 @@ import { Router } from '@angular/router';
 export class CalificanosPage implements OnInit {
 
   constructor(private router:Router) { }
-  back(){
+  
+  go(){
     this.router.navigate(['/home']);
   }
   ngOnInit() {
