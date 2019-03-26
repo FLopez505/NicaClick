@@ -33,8 +33,8 @@ export class CrearBannerPage implements OnInit {
       this.plantillaCargada = this.misplantillasservice.obtenerunicaPlantilla(plantillaId);
     });
     this._CANVAS 	      = this.canvasEl.nativeElement;
-    this._CANVAS.width  	= 200;
-    this._CANVAS.height 	= 200;
+    this._CANVAS.width  	= 851;
+    this._CANVAS.height 	= 315;
     this._IMG = new Image();
     this._IMG.src = this.plantillaCargada.imgSrc; //'https://pbs.twimg.com/profile_images/614117729918914560/3VZw4vhK_400x400.jpg';
     this.initialiseCanvas();
@@ -54,9 +54,9 @@ export class CrearBannerPage implements OnInit {
     this._CONTEXT.beginPath();
   
     // x, y, radius, startAngle, endAngle
-    this._CONTEXT.drawImage(this._IMG,0,0,200,200);
+    this._CONTEXT.drawImage(this._IMG,0,0,851,315);
     this._CONTEXT.font = '20px Arial';
-    this._CONTEXT.fillStyle = '#fff';
+    this._CONTEXT.fillStyle = '#137e73';
     this._CONTEXT.fillText('Eliab Selva', 30, 120);
     this._CONTEXT.fillText('Favio López', 30, 140);
     this._CONTEXT.fillText('Klissman Espinoza', 30, 160);
@@ -65,7 +65,7 @@ export class CrearBannerPage implements OnInit {
   setupCanvas():void{
     this._CONTEXT = this._CANVAS.getContext('2d');
     this._CONTEXT.fillStyle = "#3e3e3e";
-    this._CONTEXT.fillRect(0, 0, 200, 200);
+    this._CONTEXT.fillRect(0, 0, 851, 315);
   }
 
   clearCanvas(){
