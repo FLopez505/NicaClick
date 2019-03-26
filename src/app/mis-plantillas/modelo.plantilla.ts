@@ -3,4 +3,7 @@ export interface plantilla{
     nombrePortada: string;
     dimensiones: string;
     imgSrc: string;
+    widht: number;
+    height: number;
+    coordenadas: number[];
 }
