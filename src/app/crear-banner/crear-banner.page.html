@@ -14,9 +14,9 @@
 </ion-header>
 
 <ion-content padding>
-  <ion-card id="canva_d">
-    <canvas #canvas></canvas>
-  </ion-card>
+    <div id="divcanva">
+      <canvas #canvas></canvas>
+    </div>
   <ion-card>
     <ion-card-title text-center>
         <h4>
@@ -39,7 +39,7 @@
 
   <ion-row>
     <ion-col>
-      <ion-button color="success" (click)="drawCircle()">
+      <ion-button color="success" (click)="drawCanva()">
       <ion-icon name="brush" slot="start"></ion-icon>
         Aplicar
       </ion-button>
