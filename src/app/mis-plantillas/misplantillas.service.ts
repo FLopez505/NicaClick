@@ -13,7 +13,12 @@ export class MisplantillasService {
       imgSrc: './../../assets/plantilla1-min.jpg',
       widht: 851,
       height: 315,
-      coordenadas: [200,300]
+      coordenadas: [290,70,290,130,290,170,670,270],
+      fuente:'30px Arial',
+      color1: '#fff',
+      color2: '#0ba174',
+      color3: '#fff',
+      color4: '#fff'
     },
     {
       id: 'id2',
@@ -22,7 +27,12 @@ export class MisplantillasService {
       imgSrc: './../../assets/plantilla2-min.jpg',
       widht: 1200,
       height: 1200,
-      coordenadas: [200,300]
+      coordenadas: [200,300,500,400],
+      fuente:'30px Arial',
+      color1: '#fff',
+      color2: '#fff',
+      color3: '#fff',
+      color4: '#fff'
     },
     {
       id: 'id3',
@@ -31,7 +41,12 @@ export class MisplantillasService {
       imgSrc: './../../assets/plantilla3-min.jpg',
       widht: 1200,
       height: 630,
-      coordenadas: [200,300]
+      coordenadas: [200,300],
+      fuente:'30px Arial',
+      color1: '#fff',
+      color2: '#fff',
+      color3: '#fff',
+      color4: '#fff'
     },
     {
       id: 'id4',
@@ -40,7 +55,12 @@ export class MisplantillasService {
       imgSrc: './../../assets/plantilla4-min.jpg',
       widht: 1200,
       height: 630,
-      coordenadas: [200,300]
+      coordenadas: [200,300],
+      fuente:'30px Arial',
+      color1: '#fff',
+      color2: '#fff',
+      color3: '#fff',
+      color4: '#fff'
     },
     {
       id: 'id5',
@@ -49,7 +69,12 @@ export class MisplantillasService {
       imgSrc: './../../assets/plantilla5-min.jpg',
       widht: 1600,
       height: 628,
-      coordenadas: [200,300]
+      coordenadas: [200,300],
+      fuente:'30px Arial',
+      color1: '#fff',
+      color2: '#fff',
+      color3: '#fff',
+      color4: '#fff'
     },
     {
       id: 'id6',
@@ -58,7 +83,12 @@ export class MisplantillasService {
       imgSrc: './../../assets/plantilla6-min.jpg',
       widht: 1500,
       height: 500,
-      coordenadas: [200,300]
+      coordenadas: [200,300],
+      fuente:'30px Arial',
+      color1: '#fff',
+      color2: '#fff',
+      color3: '#fff',
+      color4: '#fff'
     },
     {
       id: 'id7',
@@ -67,7 +97,12 @@ export class MisplantillasService {
       imgSrc: './../../assets/plantilla17-min.jpg',
       widht: 1024,
       height: 512,
-      coordenadas: [200,300]
+      coordenadas: [200,300],
+      fuente:'30px Arial',
+      color1: '#fff',
+      color2: '#fff',
+      color3: '#fff',
+      color4: '#fff'
     },
     {
       id: 'id8',
@@ -76,7 +111,12 @@ export class MisplantillasService {
       imgSrc: './../../assets/plantilla9-min.jpg',
       widht: 1080,
       height: 1080,
-      coordenadas: [200,300]
+      coordenadas: [200,300],
+      fuente:'30px Arial',
+      color1: '#fff',
+      color2: '#fff',
+      color3: '#fff',
+      color4: '#fff'
     },
     {
       id: 'id9',
@@ -85,7 +125,12 @@ export class MisplantillasService {
       imgSrc: './../../assets/plantilla10-min.jpg',
       widht: 1080,
       height: 566,
-      coordenadas: [200,300]
+      coordenadas: [200,300],
+      fuente:'30px Arial',
+      color1: '#fff',
+      color2: '#fff',
+      color3: '#fff',
+      color4: '#fff'
     },
     {
       id: 'id11',
@@ -94,7 +139,12 @@ export class MisplantillasService {
       imgSrc: './../../assets/plantilla15-min.jpg',
       widht: 1080,
       height: 1350,
-      coordenadas: [200,300]
+      coordenadas: [200,300],
+      fuente:'30px Arial',
+      color1: '#fff',
+      color2: '#fff',
+      color3: '#fff',
+      color4: '#fff'
     },
     {
       id: 'id12',
@@ -103,7 +153,12 @@ export class MisplantillasService {
       imgSrc: './../../assets/plantilla12-min.jpg',
       widht: 750,
       height: 1334,
-      coordenadas: [200,300]
+      coordenadas: [200,300],
+      fuente:'30px Arial',
+      color1: '#fff',
+      color2: '#fff',
+      color3: '#fff',
+      color4: '#fff'
     },
     {
       id: 'id13',
@@ -112,7 +167,12 @@ export class MisplantillasService {
       imgSrc: './../../assets/plantilla13-min.jpg',
       widht: 600,
       height: 900,
-      coordenadas: [200,300]
+      coordenadas: [200,300],
+      fuente:'30px Arial',
+      color1: '#fff',
+      color2: '#fff',
+      color3: '#fff',
+      color4: '#fff'
     },
     {
       id: 'id14',
@@ -121,7 +181,12 @@ export class MisplantillasService {
       imgSrc: './../../assets/plantilla14-min.jpg',
       widht: 200,
       height: 200,
-      coordenadas: [200,300]
+      coordenadas: [200,300],
+      fuente:'30px Arial',
+      color1: '#fff',
+      color2: '#fff',
+      color3: '#fff',
+      color4: '#fff'
     },
     {
       id: 'id15',
@@ -130,7 +195,12 @@ export class MisplantillasService {
       imgSrc: './../../assets/plantilla15-min.jpg',
       widht: 851,
       height: 315,
-      coordenadas: [200,300]
+      coordenadas: [200,300],
+      fuente:'30px Arial',
+      color1: '#fff',
+      color2: '#fff',
+      color3: '#fff',
+      color4: '#fff'
     },
     {
       id: 'id16',
@@ -139,7 +209,12 @@ export class MisplantillasService {
       imgSrc: './../../assets/plantilla16-min.jpg',
       widht: 1080,
       height: 1920,
-      coordenadas: [200,300]
+      coordenadas: [200,300],
+      fuente:'30px Arial',
+      color1: '#fff',
+      color2: '#fff',
+      color3: '#fff',
+      color4: '#fff'
     }
   ]
   constructor() { }

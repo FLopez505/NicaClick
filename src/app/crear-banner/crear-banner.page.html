@@ -5,7 +5,7 @@
     </ion-buttons>
     <ion-title>Crear Banner</ion-title>
     <ion-buttons slot="end">
-        <ion-button><ion-icon name="archive"></ion-icon></ion-button>
+        <ion-button (click)="download()"><ion-icon name="archive"></ion-icon></ion-button>
     </ion-buttons>
     <ion-buttons slot="end">
         <ion-button><ion-icon name="share"></ion-icon></ion-button>
@@ -26,16 +26,16 @@
   </ion-card>
   <br>
   <ion-label>Negocio:</ion-label>
-  <ion-input type="text" placeholder="Ingrese el nombre del negocio" autofocus="true"></ion-input>
+  <ion-input type="text" placeholder="Ingrese el nombre del negocio" autofocus="true" [(ngModel)]="negocio"></ion-input>
   
   <ion-label>Propietario:</ion-label>
-  <ion-input type="text" placeholder="Ingrese su nombre"></ion-input>
+  <ion-input [(ngModel)]="nombre" type="text" placeholder="Ingrese su nombre"></ion-input>
   
   <ion-label>Direccion del negocio:</ion-label>
-  <ion-input type="text" placeholder="Ingrese la direccion de su negocio"></ion-input>
+  <ion-input type="text" placeholder="Ingrese la direccion de su negocio" [(ngModel)]="direccion"></ion-input>
   
   <ion-label>Teléfono:</ion-label>
-  <ion-input type="tel" placeholder="Ingrese su número telefónico"></ion-input>
+  <ion-input type="tel" placeholder="Ingrese su número telefónico" [(ngModel)]="telefono"></ion-input>
 
   <ion-row>
     <ion-col>
